@@ -5,9 +5,7 @@ import Awards from "./Awards";
 import Publications from "./Publications";
 import ConferencePresentations from "./ConferencePresentations";
 import AreaOfInterest from "./AreaOfInterest";
-import PersonalProfile from "./PersonalProfile";
 import RolesAndResponsibilities from "./RolesAndResponsibilities";
-import Header from "./Header";
 import CoreValues from "./CoreValues";
 
 function Home() {
@@ -15,7 +13,6 @@ function Home() {
     <div className="bg-gradient-to-br from-indigo-900 via-purple-900 to-pink-900">
     
       <About />
-      <PersonalProfile />
       <CoreValues/>
       <Education />
       <Awards />

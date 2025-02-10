@@ -8,7 +8,6 @@ import Publications from "./components/Publications";
 import Footer from "./components/Footer";
 import ConferencePresentations from "./components/ConferencePresentations";
 import AreaOfInterest from "./components/AreaOfInterest";
-import PersonalProfile from "./components/PersonalProfile";
 import RolesAndResponsibilities from "./components/RolesAndResponsibilities";
 import Home from "./components/Home";
 import CoreValues from "./components/CoreValues";
@@ -20,7 +19,6 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/personalProfile" element={<PersonalProfile />} />
         <Route path="/education" element={<Education />} />
         <Route path="/awards" element={<Awards />} />
         <Route path="/experience" element={<Experience />} />

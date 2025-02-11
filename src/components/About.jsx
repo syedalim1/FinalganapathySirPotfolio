@@ -84,27 +84,23 @@ const App = () => {
     });
   }, [controls]);
 
-  const toggleDarkMode = () => {
-    setIsDarkMode(!isDarkMode);
-  };
+ 
 
   return (
     <div
-      className={
-        isDarkMode ? "bg-gray-900 text-white" : " text-gray-800"
-      }
+      
     >
       {/* About Section */}
       <motion.section
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 1 }}
+        transition={{ duration: 2 }}
         className="relative min-h-screen flex items-center justify-center overflow-hidden"
       >
         {/* Parallax background */}
         <motion.div
           style={{ y }}
-          className="absolute inset-0 from-indigo-900/30 via-purple-900/30 to-pink-900/30 backdrop-blur-lg"
+          className="absolute inset-0  "
         />
 
         {/* Animated floating particles */}

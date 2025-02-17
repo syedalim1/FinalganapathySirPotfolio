@@ -17,7 +17,7 @@ function App() {
   return (
     <div className="flex flex-col min-h-screen">
       {/* 3D Animated Background */}
-      <Background />
+      
 
       {/* Gradient Overlay for better readability */}
       <div

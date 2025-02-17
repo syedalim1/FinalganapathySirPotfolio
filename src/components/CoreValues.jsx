@@ -34,7 +34,7 @@ const CoreValues = () => {
             <FaFlag className="text-4xl text-blue-600" />
           </div>
           <h3 className="text-5xl font-bold text-center mb-12 bg-gradient-to-r from-yellow-400 to-pink-400 bg-clip-text text-transparent">
-            Our Motto
+             Motto
           </h3>
           <p className="text-xl text-white max-w-3xl mx-auto leading-relaxed">
             "Empowering lives through quality education, fostering discipline
@@ -78,7 +78,7 @@ const CoreValues = () => {
               <FaBullseye className="text-4xl text-green-600" />
             </div>
           <h3 className="text-5xl font-bold text-center mb-12 bg-gradient-to-r from-yellow-400 to-pink-400 bg-clip-text text-transparent">
-              Our Mission
+               Mission
             </h3>
           </div>
 

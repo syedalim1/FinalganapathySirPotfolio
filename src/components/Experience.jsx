@@ -109,7 +109,7 @@ const Experience = () => {
         </div>
 
         {/* Stats Section */}
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 1 }}
@@ -135,7 +135,7 @@ const Experience = () => {
             <div className="text-3xl font-bold text-gray-800">100+</div>
             <div className="text-gray-600">Students Mentored</div>
           </div>
-        </motion.div>
+        </motion.div> */}
 
         {/* CTA Section */}
         <motion.div

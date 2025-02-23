@@ -111,14 +111,7 @@ const App = () => {
           >
             About Me
           </motion.h2>
-          <motion.p
-            className="text-gray-600 text-center mt-2"
-            initial={{ opacity: 0, y: -20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.4 }}
-          >
-            Full Stack Developer | UI/UX Enthusiast
-          </motion.p>
+         
         </motion.div>
 
         {/* About Details */}

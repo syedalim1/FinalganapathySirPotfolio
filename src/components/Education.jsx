@@ -49,23 +49,6 @@ const educationData = [
   },
 ];
 
-const certifications = [
-  {
-    title: "Certified React Developer",
-    issuer: "React Training",
-    year: "2021",
-  },
-  {
-    title: "AWS Certified Solutions Architect",
-    issuer: "Amazon Web Services",
-    year: "2022",
-  },
-  {
-    title: "Python for Data Science",
-    issuer: "Coursera",
-    year: "2020",
-  },
-];
 
 const fadeIn = {
   hidden: { opacity: 0, y: 50 },
@@ -248,68 +231,11 @@ const Education = () => {
           ))}
         </motion.div>
 
-        {/* Certifications Section */}
-        <motion.div
-          className="mt-32"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 0.5 }}
-        >
-          <h3 className="text-5xl font-bold mb-12 text-center bg-gradient-to-r from-yellow-400 to-pink-400 bg-clip-text text-transparent">
-            Professional Certifications
-          </h3>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {certifications.map((cert, index) => (
-              <motion.div
-                key={index}
-                className="bg-white rounded-2xl shadow-xl overflow-hidden group"
-                whileHover="hover"
-                initial={{ opacity: 0, scale: 0.9 }}
-                animate={{ opacity: 1, scale: 1 }}
-                transition={{ delay: index * 0.1 }}
-                variants={{
-                  hover: {
-                    y: -10,
-                    boxShadow: "0 20px 40px -10px rgba(0, 0, 0, 0.15)",
-                  },
-                }}
-              >
-                <div className="p-8">
-                  <div className="mb-6 flex items-center gap-4">
-                    <div className="p-3 bg-purple-100 rounded-xl">
-                      <FaCertificate className="text-2xl text-purple-600" />
-                    </div>
-                    <h4 className="text-xl font-bold text-gray-800">
-                      {cert.title}
-                    </h4>
-                  </div>
-                  <div className="space-y-2 text-gray-600">
-                    <p className="flex items-center gap-2">
-                      <span className="font-semibold">Issuer:</span>
-                      {cert.issuer}
-                    </p>
-                    <p className="flex items-center gap-2">
-                      <span className="font-semibold">Year:</span>
-                      {cert.year}
-                    </p>
-                  </div>
-                </div>
-                <div className="bg-gradient-to-r from-purple-50 to-pink-50 p-4 border-t">
-                  <button className="flex items-center gap-2 text-purple-600 hover:text-purple-700 transition-colors">
-                    <span>View Credential</span>
-                    <motion.span
-                      animate={{ x: [0, 5, 0] }}
-                      transition={{ duration: 1.5, repeat: Infinity }}
-                    >
-                      →
-                    </motion.span>
-                  </button>
-                </div>
-              </motion.div>
-            ))}
-          </div>
-        </motion.div>
+      
+           
+             
+          
+         
       </div>
     </section>
   );

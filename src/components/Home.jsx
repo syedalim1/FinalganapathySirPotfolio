@@ -18,8 +18,8 @@ function Home() {
       <Awards />
       <Experience />
       <ConferencePresentations /> */}
-      <AreaOfInterest />
-      <RolesAndResponsibilities />
+      {/* <AreaOfInterest />
+      <RolesAndResponsibilities /> */}
       {/* <Publications /> */}
     </div>
   );

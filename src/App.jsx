@@ -21,7 +21,7 @@ function App() {
 
       {/* Gradient Overlay for better readability */}
       <div
-        className="  w-full h-full bg-gradient-to-br from-indigo-900/80 via-purple-900/80 to-pink-900/80"
+        className="  w-full h-full "
         style={{ zIndex: 0 }}
       >
         {/* Main Content */}

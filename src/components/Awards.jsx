@@ -112,7 +112,7 @@ const Awards = () => {
   ];
 
   return (
-    <section className="relative py-20 px-6 bg-gradient-to-br from-gray-900 via-blue-900 to-purple-900 overflow-hidden">
+    <section className="relative py-20 px-6  overflow-hidden">
       {/* Animated Floating Elements */}
       {floatingIcons.map((item, i) => (
         <motion.div

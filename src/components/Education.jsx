@@ -114,7 +114,7 @@ const Education = () => {
 
   return (
     <section
-      className="relative py-20 overflow-hidden bg-gradient-to-br from-gray-900 via-blue-900 to-purple-900"
+      className="relative py-20 overflow-hidden "
       ref={containerRef}
     >
       {/* Dynamic animated particles */}

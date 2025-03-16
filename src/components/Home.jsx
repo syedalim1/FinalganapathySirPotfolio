@@ -10,16 +10,16 @@ import CoreValues from "./CoreValues";
 
 function Home() {
   return (
-    <div className="">
+    <div className=" bg-gradient-to-br from-gray-900 via-blue-900 to-purple-900">
     
-      <About />
-      <CoreValues/>
+      {/* <About /> */}
+      {/* <CoreValues/>
       <Education />
       <Awards />
       <Experience />
-      {/* <ConferencePresentations /> */}
-      {/* <AreaOfInterest /> */}
-      {/* <RolesAndResponsibilities /> */}
+      <ConferencePresentations /> */}
+      <AreaOfInterest />
+      <RolesAndResponsibilities />
       {/* <Publications /> */}
     </div>
   );

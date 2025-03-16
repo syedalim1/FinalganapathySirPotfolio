@@ -48,7 +48,7 @@ const CoreValues = () => {
   };
 
   return (
-    <section className="min-h-screen py-20 px-4 md:px-8 lg:px-16 bg-gradient-to-br from-gray-900 via-blue-900 to-purple-900 relative overflow-hidden">
+    <section className="min-h-screen py-20 px-4 md:px-8 lg:px-16 bg-gradient-to-br  relative overflow-hidden">
       {/* Animated Background Elements */}
       <div className="absolute inset-0 -z-10 overflow-hidden">
         <motion.div

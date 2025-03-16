@@ -12,15 +12,15 @@ function Home() {
   return (
     <div className="">
     
-      <About />
-      <CoreValues/>
-      <Education />
+      {/* <About /> */}
+      {/* <CoreValues/> */}
+      {/* <Education /> */}
       <Awards />
-      <Experience />
-      <ConferencePresentations />
-      <AreaOfInterest />
-      <RolesAndResponsibilities />
-      <Publications />
+      {/* <Experience /> */}
+      {/* <ConferencePresentations /> */}
+      {/* <AreaOfInterest /> */}
+      {/* <RolesAndResponsibilities /> */}
+      {/* <Publications /> */}
     </div>
   );
 }

@@ -225,7 +225,7 @@ const Awards = () => {
               <div className="flex items-start space-x-6">
                 <div className="flex-shrink-0">
                   <motion.div
-                    className="w-16 h-16 bg-white rounded-2xl flex items-center justify-center shadow-lg relative overflow-hidden"
+                    className="w-16 h-16 bg-white rounded-2xl flex items-center justify-center   relative overflow-hidden"
                     whileHover={{ rotate: 5 }}
                   >
                     {/* Award Logo */}
@@ -319,7 +319,7 @@ const Awards = () => {
             <motion.div
               key={index}
               whileHover={{ y: -5, scale: 1.03 }}
-              className="p-6 backdrop-blur-md bg-white bg-opacity-10 rounded-xl shadow-lg border border-white border-opacity-20 group transition-all duration-300"
+              className="p-6 backdrop-blur-md bg-white bg-opacity-10 rounded-xl   border border-white border-opacity-20 group transition-all duration-300"
             >
               <motion.div
                 initial={{ scale: 1 }}

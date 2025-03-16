@@ -184,11 +184,10 @@ const Portfolio = () => {
                 initial={{ scale: 0.9 }}
                 whileInView={{ scale: 1 }}
                 transition={{ delay: index * 0.1 }}
-                className={`p-6 rounded-xl transition-all cursor-pointer ${
-                  selectedIndustry === industry.id
+                className={`p-6 rounded-xl transition-all cursor-pointer ${selectedIndustry === industry.id
                     ? "bg-purple-600/20 border-2 border-purple-500"
                     : "bg-white hover:bg-gray-50"
-                }`}
+                  }`}
                 onClick={() => setSelectedIndustry(industry.id)}
               >
                 <div className="text-4xl mb-4">{industry.icon}</div>
@@ -223,7 +222,7 @@ const Portfolio = () => {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ delay: index * 0.2 }}
-                  className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow"
+                  className="bg-white rounded-xl   overflow-hidden hover:shadow-xl transition-shadow"
                   onClick={() => setSelectedProject(project)}
                 >
                   <div className="aspect-video bg-gray-200 relative">

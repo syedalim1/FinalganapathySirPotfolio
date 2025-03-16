@@ -164,7 +164,7 @@ const Experience = () => {
               <div className="flex flex-col md:flex-row md:items-start gap-6 relative z-10">
                 {/* Icon with enhanced styling */}
                 <motion.div
-                  className={`flex-shrink-0 p-4 rounded-2xl ${exp.iconBg} shadow-lg border border-white border-opacity-20 flex items-center justify-center`}
+                  className={`flex-shrink-0 p-4 rounded-2xl ${exp.iconBg}   border border-white border-opacity-20 flex items-center justify-center`}
                   whileHover={{ rotate: 5, scale: 1.1 }}
                   transition={{ type: "spring", stiffness: 300 }}
                 >
@@ -247,7 +247,7 @@ const Experience = () => {
               transition={{ duration: 0.5, delay: index * 0.1 }}
               viewport={{ once: true }}
               whileHover={{ y: -5, transition: { duration: 0.2 } }}
-              className="p-6 bg-white bg-opacity-10 backdrop-blur-sm rounded-xl shadow-lg border border-white border-opacity-20"
+              className="p-6 bg-white bg-opacity-10 backdrop-blur-sm rounded-xl   border border-white border-opacity-20"
             >
               <div className={`h-16 w-16 rounded-full bg-gradient-to-r ${stat.color} flex items-center justify-center text-white mx-auto mb-4`}>
                 <motion.div
@@ -290,7 +290,7 @@ const Experience = () => {
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-4 rounded-full text-lg font-semibold shadow-lg hover:shadow-xl hover:from-blue-500 hover:to-purple-500 transition-all duration-300 border-2 border-white border-opacity-20"
+            className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-4 rounded-full text-lg font-semibold   hover:shadow-xl hover:from-blue-500 hover:to-purple-500 transition-all duration-300 border-2 border-white border-opacity-20"
           >
             <motion.span
               animate={{ x: [0, 5, 0] }}

@@ -25,7 +25,7 @@ function App() {
         style={{ zIndex: 0 }}
       >
         {/* Main Content */}
-        <div className="relative z-10">
+        <div className="relative z-10 bg-gradient-to-br from-gray-900 via-blue-900 to-purple-900">
           <Header />
           <Routes>
             <Route path="/" element={<Home />} />

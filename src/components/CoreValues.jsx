@@ -48,7 +48,7 @@ const CoreValues = () => {
   };
 
   return (
-    <section className="min-h-screen py-20 px-4 md:px-8 lg:px-16 bg-gradient-to-br  relative overflow-hidden">
+    <section className="min-h-screen py-20 px-4 md:px-8 lg:px-16   relative overflow-hidden">
       {/* Animated Background Elements */}
       <div className="absolute inset-0 -z-10 overflow-hidden">
         <motion.div
@@ -110,7 +110,7 @@ const CoreValues = () => {
             initial={{ rotate: 0, scale: 1 }}
             animate={{ rotate: 360, scale: [1, 1.1, 1] }}
             transition={{ duration: 20, repeat: Infinity, repeatType: "loop" }}
-            className="inline-block bg-gradient-to-br from-blue-400 to-indigo-600 rounded-full p-6 mb-8 shadow-lg shadow-blue-500/20"
+            className="inline-block bg-gradient-to-br from-blue-400 to-indigo-600 rounded-full p-6 mb-8   shadow-blue-500/20"
           >
             <FaFlag className="text-5xl text-white" />
           </motion.div>
@@ -139,7 +139,7 @@ const CoreValues = () => {
         >
           <div className="flex flex-col md:flex-row items-center justify-center md:justify-start gap-6 mb-8">
             <motion.div
-              className="bg-gradient-to-br from-purple-400 to-indigo-600 p-5 rounded-2xl shadow-lg shadow-purple-500/20"
+              className="bg-gradient-to-br from-purple-400 to-indigo-600 p-5 rounded-2xl   shadow-purple-500/20"
               animate={{ rotate: [0, 10, -10, 0] }}
               transition={{ duration: 6, repeat: Infinity, repeatType: "reverse" }}
             >
@@ -193,7 +193,7 @@ const CoreValues = () => {
         >
           <div className="col-span-2 text-center mb-16">
             <motion.div
-              className="inline-block bg-gradient-to-br from-green-400 to-emerald-600 rounded-full p-6 mb-8 shadow-lg shadow-green-500/20"
+              className="inline-block bg-gradient-to-br from-green-400 to-emerald-600 rounded-full p-6 mb-8   shadow-green-500/20"
               animate={{
                 y: [0, -10, 0],
                 boxShadow: ["0 10px 25px rgba(16, 185, 129, 0.3)", "0 20px 35px rgba(16, 185, 129, 0.5)", "0 10px 25px rgba(16, 185, 129, 0.3)"]

@@ -238,7 +238,7 @@ const Education = () => {
           initial="hidden"
           animate={isInView ? "visible" : ""}
         >
-          <div className="absolute left-1/2 w-2 bg-gradient-to-b from-purple-500 via-blue-500 to-pink-500 h-full rounded-full shadow-lg">
+          <div className="absolute left-1/2 w-2 bg-gradient-to-b from-purple-500 via-blue-500 to-pink-500 h-full rounded-full  ">
             {/* Animated pulsing light effect */}
             <motion.div
               className="absolute w-4 h-4 bg-white rounded-full -left-1"
@@ -274,7 +274,7 @@ const Education = () => {
                 {/* Timeline Dot with custom color */}
                 <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-20">
                   <motion.div
-                    className={`w-16 h-16 bg-gradient-to-br ${edu.color} rounded-full flex items-center justify-center shadow-lg`}
+                    className={`w-16 h-16 bg-gradient-to-br ${edu.color} rounded-full flex items-center justify-center  `}
                     whileHover={{ scale: 1.2, rotate: 360 }}
                     transition={{ duration: 0.5 }}
                     animate={{
@@ -329,7 +329,7 @@ const Education = () => {
 
                     {/* Education heading with icon */}
                     <div className="flex items-center gap-4 mb-6">
-                      <div className={`p-4 bg-gradient-to-br ${edu.color} rounded-2xl shadow-lg`}>
+                      <div className={`p-4 bg-gradient-to-br ${edu.color} rounded-2xl  `}>
                         <FaRegLightbulb className="text-3xl text-white" />
                       </div>
                       <div>
@@ -543,7 +543,7 @@ const Education = () => {
               transition={{ delay: index * 0.1 }}
             >
               <motion.div
-                className={`w-16 h-16 mb-4 rounded-full bg-gradient-to-br ${stat.color} flex items-center justify-center text-white shadow-lg`}
+                className={`w-16 h-16 mb-4 rounded-full bg-gradient-to-br ${stat.color} flex items-center justify-center text-white  `}
                 animate={{
                   rotate: [0, 10, 0, -10, 0],
                   scale: [1, 1.1, 1],

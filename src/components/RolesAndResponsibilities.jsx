@@ -72,7 +72,7 @@ const RolesAndResponsibilities = () => {
   }));
 
   return (
-    <section className="relative min-h-screen flex justify-center items-center p-6 overflow-hidden bg-gradient-to-br from-gray-900 via-blue-900 to-purple-900">
+    <section className="relative min-h-screen flex justify-center items-center p-6 overflow-hidden ">
       {/* Animated background elements */}
       <div className="absolute inset-0 overflow-hidden">
         {floatingElements.map((el) => (

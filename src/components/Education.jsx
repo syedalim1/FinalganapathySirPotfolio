@@ -142,13 +142,7 @@ const Education = () => {
         ))}
       </div>
 
-      {/* Animated gradient background */}
-      <motion.div
-        className="absolute inset-0 opacity-20"
-        style={{ y: backgroundY }}
-      >
-        <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-purple-500 via-pink-500 to-red-500 blur-3xl" />
-      </motion.div>
+    
 
       <div className="container mx-auto relative z-10 px-4" ref={ref}>
         {/* Animated Header with enhanced floating effect */}

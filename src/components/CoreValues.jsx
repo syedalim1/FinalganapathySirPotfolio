@@ -48,34 +48,8 @@ const CoreValues = () => {
   };
 
   return (
-    <section className="min-h-screen py-20 px-4 md:px-8 lg:px-16   relative overflow-hidden">
-      {/* Animated Background Elements */}
-      <div className="absolute inset-0 -z-10 overflow-hidden">
-        <motion.div
-          animate={{
-            x: [0, 10, 0],
-            y: [0, 15, 0],
-          }}
-          transition={{ duration: 8, repeat: Infinity, repeatType: "reverse" }}
-          className="absolute top-20 left-20 w-64 h-64 bg-blue-400 rounded-full blur-3xl opacity-10"
-        />
-        <motion.div
-          animate={{
-            x: [0, -20, 0],
-            y: [0, -10, 0],
-          }}
-          transition={{ duration: 10, repeat: Infinity, repeatType: "reverse" }}
-          className="absolute bottom-40 right-20 w-96 h-96 bg-purple-500 rounded-full blur-3xl opacity-10"
-        />
-        <motion.div
-          animate={{
-            x: [0, 15, 0],
-            y: [0, -15, 0],
-          }}
-          transition={{ duration: 9, repeat: Infinity, repeatType: "reverse" }}
-          className="absolute top-1/2 left-1/3 w-72 h-72 bg-pink-400 rounded-full blur-3xl opacity-10"
-        />
-      </div>
+    <section className="py-20 px-4 md:px-8 lg:px-16   relative overflow-hidden">
+     
 
       <div className="max-w-7xl mx-auto relative z-10">
         {/* Header with Animation */}

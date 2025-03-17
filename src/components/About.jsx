@@ -6,33 +6,11 @@ import {
   useAnimation,
   AnimatePresence,
 } from "framer-motion";
-import {
-  FaUser,
-  FaCalendarAlt,
-  FaGlobe,
-  FaHeart,
-  FaLanguage,
-  FaGamepad,
-  FaEnvelope,
-  FaLinkedin,
-  FaGithub,
-  FaDownload,
-  FaSun,
-  FaMoon,
-  FaGraduationCap,
-  FaBriefcase,
-  FaUserTie,
-  FaBook,
-  FaCode,
-  FaAward,
-  FaCertificate,
-  FaUniversity,
-} from "react-icons/fa";
+
 import HeroSection from "./about/HeroSection";
 import AboutSection from "./about/AboutSection";
 import PersonalSection from "./about/PersonalSection";
 import HobbiesSection from "./about/HobbiesSection";
-import SocialMediaSection from "./about/SocialMediaSection";
 
 // Personal Profile Data
 const PersonalProfile = {
@@ -134,7 +112,7 @@ const App = () => {
 
 
   return (
-    <div className={`min-h-screen bg-gradient-to-br from-gray-900 via-blue-900 to-purple-900 ${theme.text} overflow-x-hidden`}>
+    <div className={`  ${theme.text} overflow-x-hidden`}>
       {/* Particle Background */}
       <div className="fixed inset-0 pointer-events-none overflow-hidden">
         {particles.map((particle, index) => (
@@ -167,7 +145,6 @@ const App = () => {
 
       <PersonalSection />
       <HobbiesSection />
-      <SocialMediaSection />
 
       {/* Scroll to top button */}
       <motion.button

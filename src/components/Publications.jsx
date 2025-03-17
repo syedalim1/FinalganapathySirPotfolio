@@ -178,7 +178,7 @@ const Publications = () => {
   };
 
   return (
-    <section className="relative py-16 px-6 overflow-hidden bg-gradient-to-br from-gray-900 via-blue-900 to-purple-900">
+    <section className="relative py-16 px-6 overflow-hidden ">
       {/* Animated Background Particles */}
       <div className="absolute inset-0 opacity-30">
         {generateParticles(15)}

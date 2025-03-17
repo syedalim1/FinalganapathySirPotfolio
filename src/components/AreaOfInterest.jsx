@@ -68,7 +68,7 @@ const AreaOfInterest = () => {
   }));
 
   return (
-    <section className="relative py-24 overflow-hidden bg-gradient-to-br from-gray-900 via-blue-900 to-purple-900">
+    <section className="relative py-24 overflow-hidden ">
       {/* Animated background particles */}
       {particles.map((particle) => (
         <motion.div

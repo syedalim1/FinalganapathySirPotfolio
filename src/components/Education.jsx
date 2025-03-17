@@ -456,65 +456,7 @@ const Education = () => {
           ))}
         </motion.div>
 
-        {/* Skills acquired section */}
-        <motion.div
-          initial={{ opacity: 0, y: 50 }}
-          animate={isInView ? { opacity: 1, y: 0 } : {}}
-          transition={{ duration: 0.8, delay: 0.5 }}
-          className="mt-20"
-        >
-          <h3 className="text-3xl font-bold text-center mb-12 bg-gradient-to-r from-cyan-300 to-green-300 bg-clip-text text-transparent">
-            Skills Acquired Through Education
-          </h3>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {[
-              { name: "Artificial Intelligence", level: 90, color: "from-blue-500 to-purple-500" },
-              { name: "Machine Learning", level: 85, color: "from-purple-500 to-pink-500" },
-              { name: "Robotics", level: 75, color: "from-red-500 to-orange-500" },
-              { name: "Data Science", level: 82, color: "from-green-500 to-teal-500" },
-              { name: "Cloud Computing", level: 78, color: "from-cyan-500 to-blue-500" },
-              { name: "Web Development", level: 88, color: "from-yellow-500 to-orange-500" }
-            ].map((skill, index) => (
-              <motion.div
-                key={index}
-                className="p-6 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10 overflow-hidden relative"
-                whileHover={{ y: -10, boxShadow: "0 25px 50px -12px rgba(0, 0, 0, 0.25)" }}
-                initial={{ opacity: 0, y: 20 }}
-                animate={isInView ? { opacity: 1, y: 0 } : {}}
-                transition={{ delay: 0.1 * index }}
-              >
-                <div className="absolute -right-5 -top-5 w-20 h-20 bg-gradient-to-br from-white/5 to-white/10 rounded-full blur-xl" />
-
-                <h4 className="text-xl font-bold text-white mb-4">{skill.name}</h4>
-
-                <div className="relative pt-1">
-                  <div className="flex items-center justify-between mb-2">
-                    <div>
-                      <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full bg-white/10 text-gray-200">
-                        Proficiency
-                      </span>
-                    </div>
-                    <div className="text-right">
-                      <span className="text-xs font-semibold inline-block text-gray-200">
-                        {skill.level}%
-                      </span>
-                    </div>
-                  </div>
-                  <div className="h-2 bg-gray-700 rounded-full overflow-hidden">
-                    <motion.div
-                      className={`h-full bg-gradient-to-r ${skill.color}`}
-                      initial={{ width: 0 }}
-                      animate={isInView ? { width: `${skill.level}%` } : {}}
-                      transition={{ duration: 1, delay: 0.5 + index * 0.1 }}
-                    />
-                  </div>
-                </div>
-              </motion.div>
-            ))}
-          </div>
-        </motion.div>
-
+     
         {/* Education statistics with animated counters */}
         <motion.div
           className="mt-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6"
